@@ -989,5 +989,11 @@
   
 
   .navbar-header > a > img {
-    max-width: 80px;
+    max-width: 70px;
+  }
+
+  @media (max-width: 1020px) {
+    .navbar-header>a>img {
+        margin-top: -10px;
+      }
   }
