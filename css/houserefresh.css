@@ -548,19 +548,21 @@
           height: 50vh;
           display: flex;
           flex-direction: row;
-          justify-content: center;
+          justify-content: space-around;
           align-items: center;
           text-decoration: none;
-          text-align: center;
+         
           font-size: 2rem;
           color: #46b8cc;
           font-weight: 600;
           transition: 0.5s;
         }
 
+        
+
         @media (max-width: 700px) {
           .servicii-container {
-            font-size: 3vw;
+            font-size: 3 vw;
           }
         }
 
