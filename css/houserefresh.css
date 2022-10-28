@@ -551,8 +551,8 @@
           justify-content: space-around;
           align-items: center;
           text-decoration: none;
+          object-fit: contain;
          
-          font-size: 2rem;
           color: #46b8cc;
           font-weight: 600;
           transition: 0.5s;
